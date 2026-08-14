@@ -1,0 +1,38 @@
+# Core
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic-settings
+
+# LLM
+groq
+
+# STT — openai-whisper (faster-whisper not in env; noted in README)
+openai-whisper
+numpy
+
+# TTS — pyttsx3 (Piper not in env; noted in README)
+pyttsx3
+
+# RAG
+chromadb
+rank_bm25
+sentence-transformers
+
+# Database
+sqlalchemy
+
+# Audio
+sounddevice
+soundfile
+audioop-lts
+
+# Telephony
+twilio
+
+# Latency report
+pandas
+
+# Tests
+pytest
+pytest-asyncio
